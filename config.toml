@@ -1,0 +1,60 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Rch Roller"
+[Params]
+  description = "A portfolio theme with a blog"
+  color_scheme = "light"
+  accent_color = "pink"
+  [Params.header]
+    type = "header"
+    title = "RCH"
+    has_nav = true
+    logo_img = true
+    logo_rch = "/images/logoRCH.jpg"
+    [[Params.header.nav_links]]
+        type = "action"
+        label = "Home"
+        url = "/"
+        style = "link"
+    [[Params.header.nav_links]]
+        type = "action"
+        label = "Portfolio"
+        url = "/portfolio/"
+        style = "link"
+    [[Params.header.nav_links]]
+        type = "action"
+        label = "Blog"
+        url = "/blog/"
+        style = "link"
+    [[Params.header.nav_links]]
+        type = "action"
+        label = "Style Guide"
+        url = "/style-guide/"
+        style = "link"
+    [[Params.header.nav_links]]
+        type = "action"
+        label = "About"
+        url = "/about/"
+        style = "link"
+    [[Params.header.nav_links]]
+        type = "action"
+        label = "Contact"
+        url = "/contact/"
+        style = "link"
+  [Params.footer]
+    type = "footer"
+    content = "&copy; rch. All rights reserved."
+    [[Params.footer.links]]
+        type = "action"
+        label = "Made with hugo."
+        url = "https://gohugo.io"
+        style = "link"
+        new_window = true
+    has_social = true
+    [[Params.footer.social_links]]
+        type = "action"
+        label = "Twitter"
+        url = "https://twitter.com/"
+        style = "icon"
+        icon_class = "fa-twitter"
+        new_window = true
