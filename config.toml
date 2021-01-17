@@ -2,82 +2,66 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Rch Roller"
 [params]
-description = "A portfolio theme with a blog"
-color_scheme = "light"
-accent_color = "pink"
-
+    description = "A portfolio theme with a blog"
+    color_scheme = "light"
+    accent_color = "pink"
     [params.header]
-    type = "header"
-    title = "RCH"
-    has_nav = true
-    logo_img = true
-    logo_rch = "/images/logoRCH.jpg"
-    
+        type = "header"
+        title = "RCH"
+        has_nav = true
+        logo_img = true
+        logo_rch = "/images/logoRCH.jpg"
         [[params.header.nav_links]]
-        type = "action"
-        label = "Home"
-        url = "/"
-        style = "link"
-
+            type = "action"
+            label = "Home"
+            url = "/"
+            style = "link"
         [[params.header.nav_links]]
-        type = "action"
-        label = "Portfolio"
-        url = "/portfolio/"
-        style = "link"
-
+            type = "action"
+            label = "Portfolio"
+            url = "/portfolio/"
+            style = "link"
         [[params.header.nav_links]]
-        type = "action"
-        label = "Blog"
-        url = "/blog/"
-        style = "link"
-
+            type = "action"
+            label = "Blog"
+            url = "/blog/"
+            style = "link"
         [[params.header.nav_links]]
-        type = "action"
-        label = "Style Guide"
-        url = "/style-guide/"
-        style = "link"
-
+            type = "action"
+            label = "Style Guide"
+            url = "/style-guide/"
+            style = "link"
         [[params.header.nav_links]]
-        type = "action"
-        label = "About"
-        url = "/about/"
-        style = "link"
-
+            type = "action"
+            label = "About"
+            url = "/about/"
+            style = "link"
         [[params.header.nav_links]]
-        type = "action"
-        label = "Contact"
-        url = "/contact/"
-        style = "link"
-
+            type = "action"
+            label = "Contact"
+            url = "/contact/"
+            style = "link"
     [params.footer]
-    type = "footer"
-    content = "&copy; Stackbit-Exto. All rights reserved."
-    has_social = true
-
+        type = "footer"
+        content = "&copy; RCH. All rights reserved."
+        has_social = true
         [[params.footer.links]]
-        type = "action"
-        label = "Made with hugo."
-        url = "https://gohugo.io"
-        style = "link"
-        new_window = true
-    
+            type = "action"
+            label = "Made with hugo."
+            url = "https://gohugo.io"
+            style = "link"
+            new_window = true
         [[params.footer.social_links]]
-        type = "action"
-        label = "Twitter"
-        url = "https://twitter.com/"
-        style = "icon"
-        icon_class = "fa-twitter"
-        new_window = true
-
+            type = "action"
+            label = "Twitter"
+            url = "https://twitter.com/"
+            style = "icon"
+            icon_class = "fa-twitter"
+            new_window = true
         [[params.footer.social_links]]
-        type = "action"
-        label = "Instagram"
-        url = "https://www.instagram.com/"
-        style = "icon"
-        icon_class = "fa-instagram"
-        new_window = true
-
-[taxonomies]
-stub = "stub"
-
-disableKinds = [ "RSS", "taxonomy", "taxonomyTerm" ]
+            type = "action"
+            label = "Instagram"
+            url = "https://www.instagram.com/"
+            style = "icon"
+            icon_class = "fa-instagram"
+            new_window = true
